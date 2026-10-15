@@ -1,0 +1,39 @@
+2026-10-15 10:37:35,991 | INFO | VoiceAssistant | Assistant started
+2026-10-15 10:39:23,438 | INFO | VoiceAssistant | Assistant started
+2026-10-15 10:39:29,964 | INFO | VoiceAssistant | User command: hello nova
+2026-10-15 10:39:40,048 | INFO | VoiceAssistant | User command: what is python
+2026-10-15 10:39:53,536 | INFO | VoiceAssistant | User command: what is the weather today in
+2026-10-15 10:40:05,525 | INFO | VoiceAssistant | User command: weather in
+2026-10-15 10:40:12,639 | INFO | VoiceAssistant | User command: weather in pokhara
+2026-10-15 10:40:12,639 | INFO | WeatherService | Fetching weather for city: pokhara
+2026-10-15 10:40:13,012 | INFO | WeatherService | Weather data received successfully for city: pokhara
+2026-10-15 10:40:30,573 | INFO | VoiceAssistant | User command: thank
+2026-10-15 10:40:41,316 | INFO | VoiceAssistant | User command: goodbye
+2026-10-15 10:43:38,252 | INFO | VoiceAssistant | Assistant started
+2026-10-15 10:43:45,438 | INFO | VoiceAssistant | User command: nova what is 5 + 5
+2026-10-15 10:43:45,438 | ERROR | CalculatorCommand | Calculation failed: invalid syntax (<unknown>, line 1)
+Traceback (most recent call last):
+  File "C:\Users\praya\Desktop\VSCODE\OIBSIP\pythonprogramming_task1\commands\calculator.py", line 32, in execute
+    result = self.safe_calculate(expression)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\praya\Desktop\VSCODE\OIBSIP\pythonprogramming_task1\commands\calculator.py", line 79, in safe_calculate
+    tree = ast.parse(
+           ^^^^^^^^^^
+  File "D:\Softwares\anaconda3\Lib\ast.py", line 50, in parse
+    return compile(source, filename, mode, flags,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<unknown>", line 1
+    nova  5 + 5
+          ^
+SyntaxError: invalid syntax
+2026-10-15 10:43:53,483 | INFO | VoiceAssistant | User command: nova what is
+2026-10-15 10:44:01,965 | INFO | VoiceAssistant | User command: 6 x 6
+2026-10-15 10:44:10,250 | INFO | VoiceAssistant | User command: 6 x 6
+2026-10-15 10:44:18,497 | INFO | VoiceAssistant | User command: 5 - 5
+2026-10-15 10:44:24,572 | INFO | VoiceAssistant | User command: 5 + 5
+2026-10-15 10:44:30,875 | INFO | VoiceAssistant | User command: 5 x 5
+2026-10-15 10:44:38,314 | INFO | VoiceAssistant | User command: 5 / 5
+2026-10-15 10:44:44,777 | INFO | VoiceAssistant | User command: 5 + 5
+2026-10-15 10:44:50,575 | INFO | VoiceAssistant | User command: 5 - 5
+2026-10-15 10:44:55,802 | INFO | VoiceAssistant | User command: good bye
+2026-10-15 10:45:02,510 | INFO | VoiceAssistant | User command: exit

@@ -1,0 +1,14 @@
+{
+    "open classroom": {
+        "action": "open_url",
+        "value": "https://classroom.google.com"
+    },
+    "open youtube": {
+        "action": "open_url",
+        "value": "https://www.youtube.com"
+    },
+    "open github": {
+        "action": "open_url",
+        "value": "https://github.com"
+    }
+}
